@@ -33,11 +33,11 @@ defmodule Spidey.MixProject do
 
   defp deps do
     [
-      {:httpoison, "~> 1.7.0"},
-      {:floki, "~> 0.27.0"},
-      {:excoveralls, "~> 0.10", only: :test},
-      {:mox, "~> 0.5", only: :test},
-      {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
+      {:httpoison, "~> 2.0"},
+      {:floki, "~> 0.34.0"},
+      {:excoveralls, "~> 0.16.0", only: :test},
+      {:mox, "~> 1.0", only: :test},
+      {:ex_doc, ">= 0.29.0", only: :dev, runtime: false}
     ]
   end
 
